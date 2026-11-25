@@ -1,0 +1,9 @@
+{
+  "name": "site-hologram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site da Hologram (com a página da Healthline). HTML estático.",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R index.html healthline.html media video dist/"
+  }
+}
